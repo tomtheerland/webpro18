@@ -1,0 +1,58 @@
+/*
+Theme Name:   BBE Child Starter
+Template:     bbe
+Version:      1.0
+Text Domain:  bbe-child-starter
+Author: DopeWp
+*/
+ 
+.jumbotron {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    border-radius: 0px !important;
+}
+
+.thumbnail {   
+    border-radius: 0px;
+    border-style: none;
+    background-color: aliceblue;
+    justify-content: center;
+}
+.thumbnail p a {
+    background-color: rgba(89, 158, 214, 0.664);
+    border-color: aliceblue;
+}
+
+.thumbnail img {
+    border-radius: 5px;
+}
+
+.wpcf7 {
+
+}
+
+.submit-btn {
+    
+}
+
+.textwidget {
+    line-height: 2;
+}
+
+.studier-img {
+    margin-bottom: 20px;
+}
+
+.fa-facebook {
+    color: white;
+    background-color: lightblue;
+    border-style: solid;
+    border-color: lightblue;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-radius: 5px;
+}
