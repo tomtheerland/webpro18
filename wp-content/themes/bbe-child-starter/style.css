@@ -6,33 +6,44 @@ Text Domain:  bbe-child-starter
 Author: DopeWp
 */
  
-.jumbotron {
-    height: 50vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.jumbotron { /*Header image with text*/
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+    background-attachment: scroll;
     color: white;
     border-radius: 0px !important;
+	overflow: hidden;
+	height: 100%;
 }
 
-.thumbnail {   
-    border-radius: 0px;
+.thumbnail { /*Images with text under*/   
     border-style: none;
-    background-color: aliceblue;
+    background-color: #3a3a3a;
     justify-content: center;
+	color: white !important;
 }
+
 .thumbnail p a {
-    background-color: rgba(89, 158, 214, 0.664);
-    border-color: aliceblue;
+	background-color: rgba(89, 158, 214, 0.664);
+	border-style: none;
+	color: white !important;
+}
+
+.thumbnail-btn-center {
+	text-align: center;
 }
 
 .thumbnail img {
-    border-radius: 5px;
+	border-radius: 5px;
 }
 
-.wpcf7 {
+.caption {
+	color: white !important;
+}
 
+.wpcf7 { /*Footer contact widget*/
+	color: white;
 }
 
 .submit-btn {
@@ -47,12 +58,26 @@ Author: DopeWp
     margin-bottom: 20px;
 }
 
-.fa-facebook {
-    color: white;
-    background-color: lightblue;
-    border-style: solid;
-    border-color: lightblue;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-radius: 5px;
+.footer-widget-title { 
+	color: white;
+}
+
+.site-sub-footer { /*Lower Footer*/
+	color: white;
+}
+
+.fa { /*Footer Icons*/
+	color: white;
+}
+
+#bbe-magic-content {
+	color: white;
+}
+
+.panel-group {
+	color: black;
+}
+
+.featurette-image {
+	max-width: 100px;
 }
